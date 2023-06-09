@@ -1,5 +1,6 @@
 //Inicializar el contador en cero
 let contador =0;
+let resultado ="";
 
 //condicion while para ingresar alumno y dni
 while(contador < 5){
@@ -17,8 +18,12 @@ while(contador < 5){
 
     alert("Alumno: " + alumno + "\nDNI: " + dni+ "\nComision: " + comision);
 
+    resultado += "Alumno: " + alumno + "\nDNI: " + dni + "\nComisión: " + comision + "\n\n";
+
     contador++;
 }
+
+alert(resultado);
 
 //funcion con mod para verificar paridad
 function obtenerComision(dni){
