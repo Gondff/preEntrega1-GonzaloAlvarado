@@ -18,6 +18,7 @@ while(contador < 5){
 
     alert("Alumno: " + alumno + "\nDNI: " + dni+ "\nComision: " + comision);
 
+    //guardo todos para mostrarlos al final
     resultado += "Alumno: " + alumno + "\nDNI: " + dni + "\nComisión: " + comision + "\n\n";
 
     contador++;
